@@ -45,6 +45,11 @@ def generate_token():
 
     return jsonify(response), 200
 
-    # create a route for sign up that will add the user's email and password to the DB
+    # create a route for /signup that will add the user's email and password to the DB
     # POST
     # test that on postman
+
+    # create a route for /invoices that will retrieve and return the users invoices
+    # in json format
+    # GET
+
